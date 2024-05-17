@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b89fdb68e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- header -->
+    <nav>
+      <header>
+        <h1>My Por<span>tf</span>olio⭐</h1>
+
+        <ul>
+          <li><a href="#content1">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+    </nav>
+    
+    <!-- starting part -->
+    
+      <div class="text-pic">
+        <div>
+          <div class="text"></div>
+          <p>I want to make a better web, <br>one that is fast, easy to use, beautiful accessible to all, <br>and fustration-free regard less of your specific bussiness requirement</p>
+          <button type="button"><a href="mailto:gilbertdestiny934@gmail.com">Book Me!!</a></button>
+          <!-- <a href="./img/bootstrap.png" download="bootstrap.png">Download CV</a> -->
+        </div>
+
+
+        <div>
+          <img src="./img/Screenshot_20230916_194434_Xender.jpg" alt="" class="circular-image">
+        </div>
+      </div>
+
+      <div class="container">
+        <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+      </div>
+      
+        
+
+  
+
+
+
+<!-- my about, project, contact tab -->
+<div class="main">
+
+  <div class=grid>
+    <div class=grid__column onclick="openContent('content1')">
+    <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1"><i>About</i></label>
+    </div>
+    <div class=grid__column onclick="openContent('content2')">
+    <input id="tab2" type="radio" name="tabs">
+  <label for="tab2"><i>Projects</i></label>
+    </div>
+    <div class=grid__column onclick="openContent('content3')">
+    <input id="tab3" type="radio" name="tabs">
+  <label for="tab3"><i>Skills</i></label>
+    </div>
+    <div class=grid__column onclick="openContent('content4')">
+    <input id="tab4" type="radio" name="tabs">
+  <label for="tab4"><i>Contact</i></label>
+    </div>
+  </div>
+  
+  <div class="content">
+   
+    <!-- about tab -->
+    <div id="content1" class="content88 content11">
+    <p style="padding: 100px; font-size: 48px;">
+      <div id="about-text" >
+        <p>
+          My Name Is Gilbert Destiny. <br>A Product-Focused Fullstack developer based in Nigeria.<br>I Specilized In Helping Products Grow Based On User Metrics.<br> I Completed A One Year Full-Stack Development Coures At Ebitare Computer Institute In Bayelsa State, Nigeria.
+          <br>
+          <br>
+          <br>
+          I Have A Passion For Technology And Software Engineering. <i class="fa fa-code" aria-hidden="true"></i><br> In Addition To My Love For Technology. I am also intrested in Graphic design and Videography.
+          <br>
+          <button type="button" id="hire-button"><a href="mailto:gilbertdestiny934@gmail.com">Hire Me</a></button>
+        </p>
+
+        <video src="./img/portfolio vid.mp4" loop autoplay muted height="800" width="550"></video>
+      </div>
+    </p>
+    
+    </div>
+
+
+
+
+
+    <!-- Projects tab -->
+    <div id="content2" class="content88 content22">
+      <h2>Here's A Summary Of My Work So Far. <br> click next to view!!</h2>
+    <p>
+        <!-- image slider -->
+        <div class="slider"> 
+          <div class="slide"> 
+          <img src="./img/destinee exchange.png" alt="demo image" /> 
+          </div>
+          
+          <div class="slide"> 
+          <img src="./img/car website.png" alt="demo image" /> 
+          </div> 
+    
+          <div class="slide"> 
+          <img src="./img/real estate web.png" alt="demo image" /> 
+          </div>
+    
+          <div class="slide"> 
+            <img src="./img/bootstrap project.png" alt="demo image" /> 
+            </div> 
+    
+          <div class="slide"> 
+          <img src="./img/cam web.png" alt="demo image" /> 
+          </div> 
+
+          <div class="slide"> 
+          <img src="./img/cam.png" alt="demo image" /> 
+          </div> 
+    
+          <div class="slide"> 
+          <img src="./img/changelly clone.png" alt="demo image" /> 
+          </div> 
+    
+          <div class="slide"> 
+          <img src="./img/my geeks web.png" alt="demo image" /> 
+          </div> 
+    
+          <div class="slide"> 
+          <img src="./img/order tracker.png" alt="demo image" /> 
+          </div> 
+    
+          <div class="slide"> 
+          <img src="./img/facebook clone pic.png" alt="demo image" /> 
+          </div>
+        
+          <div class="slide"> 
+          <img src="./img/google clone website.png" alt="demo image" /> 
+          </div> 
+        
+          <a class="prev" onclick="prevSlide()">&lt;</a> 
+          <a class="next" onclick="nextSlide()">&gt;</a>
+         </div>
+    </p>
+          <h2 id="like">Like What You See?</h2>
+          <button type="button" id="hire-button"><a href="mailto:gilbertdestiny934@gmail.com">Let's Talk<i class="fa fa-chat" aria-hidden="true"></i></a></button>
+    </div>
+
+
+    <!-- skills tab -->
+    <div id="content3" class="content88 content33">
+    <p style="padding: 100px; font-size: 48px;">
+
+      <div id="skill-box">
+        <div>
+          <img src="./img/html.png" alt="" id="skills-img">
+          <P>HTML</P>
+        </div>
+
+        <div>
+          <img src="./img/css.png" alt="" id="skills-img">
+          <P>CSS</P>
+        </div>
+
+        <div>
+          <img src="./img/javascript.jpg" alt="" id="skills-img">
+          <P>Javascript</P>
+        </div>
+      </div>
+      
+      <div id="skill-box">
+        <div>
+          <img src="./img/bootstrap.png" alt="" id="skills-img">
+          <P>Bootstrap</P>
+        </div>
+
+        <div>
+          <img src="./img/github.png" alt="" id="skills-img">
+          <P>Github</P>
+        </div>
+
+        <div>
+          <img src="./img/Php.jpg" alt="" id="skills-img">
+          <P>PHP</P>
+        </div>
+      </div>
+      
+      <div id="other-skills">
+        <ol>
+          <h3>Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
+          <li>WAEC/SSCE</li>
+          <p>Excel International School/Congrat International School (2012-2020)</p>
+          <br>
+          <li>Basic Education certificate</li>
+          <p>Blazing Tourch Nus/Pry School <br>(2006-2012)</p>
+        </ol>
+
+
+        <ol>
+          <h3>Professional Skills</h3>
+          <li>Reserch Skill</li>
+          <li>Problem Solving</li>
+          <li>Communication Skills</li>
+          <li>Collaborative Nature</li>
+        </ol>
+  
+        
+        <ol>
+          <h3>Personal Skills</h3>
+          <li>Creative Spirit</li>
+          <li>Organised</li>
+          <li>Time Management</li>
+        </ol>
+      </div>
+      
+    </p>
+    </div>
+
+
+    
+
+    <!-- contact tab -->
+    <div id="content4" class="content88 content44">
+      <p style="padding: 100px; font-size: 48px;">
+        <button type="button" id="hire-button"><a href="mailto:gilbertdestiny934@gmail.com">@Gmil</a></button>
+        <div class="codetheworld-io">
+
+          <a href="https://wa.me/qr/NHV53L2B27GSD1" style="--color: #00b10f">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a href="https://ig.me/m/_destinee_smallz_" style="--color: #FF0050">
+            <i class="fa-brands fa-instagram"></i>
+          </a> 
+
+          <a href="https://tiktok.com/destinee_smallz_" style="--color: #050801">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>  
+
+          <a href="https://www.facebook.com/destinee.smallz?mibextid=ZbWKwL       ;" style="--color: #4267B2">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>     
+
+        </div>
+      </p>
+    </div>
+  </div>
+  
+        
+
+  
+
+<nav>
+  
+  <footer>
+    <hr>
+    <h6>Copyrights<i class="fa fa-copyright" aria-hidden="true"></i> 2024 Destiny's Portfolio <br> All Rights Reserved</h6>
+  </footer>
+</nav>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="./index.js">
+  $(window).load(function() {
+    $('#loading').hide();
+  });
+</script>
+</body>
+</html>
